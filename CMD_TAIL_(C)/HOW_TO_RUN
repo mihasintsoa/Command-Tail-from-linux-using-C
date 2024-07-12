@@ -1,0 +1,7 @@
+I assume you are not a beginer on how to run c program
+
+compile:gcc def.c liat.c -o executable
+
+You can change the 'executable' to random name or name by your choice
+
+run:./executable option fichier
