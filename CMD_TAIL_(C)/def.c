@@ -147,6 +147,7 @@ void displayC(FILE* f, int countCharact, int value)
 
 void displayHelp()
 {
+    printf("WARNING: my -f option is not perfect. YOU WILL NOT BE ABLE TO USE CTRL + C TO STOP THE PROGRAMM\n ");
     printf("Utilisation : executable [OPTION]... [FICHIER]...\n");
     printf("Afficher les 10 dernieres lignes de chaque FICHIER sur la sortie standard.\n");
     printf("Sans FICHIER ou quand FICHIER est -, afficher une demande.\n\n");
@@ -165,5 +166,4 @@ void displayHelp()
     printf("     --help     afficher l'aide et quitter\n");
     printf("--version  afficher des informations de version et quitter\n\n");
     printf("FROM THE LINUX COMMAND TAIL write using the C Language\n\n");
-    printf("WARNING: my -f option is not perfect. YOU WILL NOT BE ABLE TO USE CTRL + C TO STOP THE PROGRAMM\n ");
 }
